@@ -1,0 +1,48 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+form {
+  border: 3px solid greenyellow;
+}
+input[type=text], input[type=password] {
+  width: auto;
+  padding: 12px 20px;
+  margin: auto;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: aquamarine;
+  color: black;
+  padding: 14px 20px;
+  margin: auto;
+  border: 8px 0;
+  cursor: auto;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.cancelbutton {
+  width: auto;
+  padding: 10px 18px;
+  background-color: blueviolet;
+}
+.container {
+  padding: 16px;
+}
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+/* Change styles for span and cancel button on extra small screen */
+@media  and (max-width 300px) { span.psw {
+  display:block;
+  float:none;
+}
+  .cancelbtn {
+    width: auto;
+  }
+}
